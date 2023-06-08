@@ -1,0 +1,25 @@
+title: Your Cybersecurity Club's Name
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write a brief description of your club and its activities.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://your-site-url.com" # the base hostname & protocol for your site
+twitter_username: your_twitter_username
+github_username:  your_github_username
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  ctfs_and_challenges:
+    output: true
+    permalink: /:collection/:path/
