@@ -1,6 +1,6 @@
-# Contributing to [Your Project Name]
+# Contributing to [Cybersecurity Club]
 
-First off, thank you for considering contributing to [Your Project Name]. It's people like you that make [Your Project Name] such a great tool.
+First off, thank you for considering contributing to [Cybersecurity Club]. It's people like you that make [Cybersecurity Club] such a great tool.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
@@ -8,7 +8,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for [Your Project Name]. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+This section guides you through submitting a bug report for [Cybersecurity Club]. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
 Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report).
 
@@ -31,14 +31,15 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for [Your Project Name], including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
+This section guides you through submitting an enhancement suggestion for [Cybersecurity Club], including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
 
 Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion).
 
 #### Before Submitting An Enhancement Suggestion
 
 - **Check the FAQs on the forum where enhancing requests are tracked.** You might find that the enhancement has already been requested or is even being worked on.
-- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Ayourorg) to see if the enhancement has already been suggested.**Continuing the `CONTRIBUTING.md`:
+- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Ayourorg) to see if the enhancement has already been suggested.**
+- Continuing the `CONTRIBUTING.md`:
 
 ```markdown
 If it has, add a comment to the existing issue instead of opening a new one.
@@ -51,8 +52,8 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 - **Provide a step-by-step description of the suggested enhancement** in as much detail as possible.
 - **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as Markdown code blocks.
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of [Your Project Name] which the suggestion is related to.
-- **Explain why this enhancement would be useful** to most [Your Project Name] users and isn't something that can or should be implemented as a community plugin.
+- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of [Cybersecurity Club] which the suggestion is related to.
+- **Explain why this enhancement would be useful** to most [Cybersecurity Club] users and isn't something that can or should be implemented as a community plugin.
 
 ### Pull Requests
 
@@ -72,4 +73,4 @@ This document is based on the open-source contribution guidelines for [Facebook'
 
 ## Final Notes
 
-Thank you again for taking the time to contribute to [Your Project Name]! We appreciate your effort and are looking forward to improving [Your Project Name] together with you!
+Thank you again for taking the time to contribute to [Cybersecurity Club]! We appreciate your effort and are looking forward to improving [Cybersecurity Club] together with you!
