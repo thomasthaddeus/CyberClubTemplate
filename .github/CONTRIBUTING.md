@@ -39,10 +39,7 @@ Before creating enhancement suggestions, please check [this list](#before-submit
 
 - **Check the FAQs on the forum where enhancing requests are tracked.** You might find that the enhancement has already been requested or is even being worked on.
 - **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Ayourorg) to see if the enhancement has already been suggested.**
-- Continuing the `CONTRIBUTING.md`:
-
-```markdown
-If it has, add a comment to the existing issue instead of opening a new one.
+- If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A Good Enhancement Suggestion?
 
