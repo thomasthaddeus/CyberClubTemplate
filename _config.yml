@@ -1,25 +1,80 @@
 title: Your Cybersecurity Club's Name
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write a brief description of your club and its activities.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://your-site-url.com" # the base hostname & protocol for your site
-twitter_username: your_twitter_username
-github_username:  your_github_username
+description: >-
+  Write a brief description of your club and its activities. Focus on cybersecurity topics, events, workshops, capture the flag (CTF) challenges, and other educational content.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://thomasthaddeus.com" # your site's base hostname & protocol
+twitter_username: thaddeusmaxima
+github_username: thomasthaddeus
+
+# Social media links (optional)
+social_links:
+  twitter: https://twitter.com/thaddeusmaxima
+  github: https://github.com/thomasthaddeus
+  linkedin: https://www.linkedin.com/in/thaddeusthomas/ # Add your LinkedIn profile
+  # youtube: https://www.youtube.com/channel/your-channel # Add if you have video content
+  # facebook: https://www.facebook.com/yourpage # Add if applicable
 
 # Build settings
 markdown: kramdown
+theme: minima # Or any other theme you prefer
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed # For RSS feed
+  - jekyll-sitemap # Generate a sitemap automatically
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# SEO settings (optional)
+seo:
+  name: Your Cybersecurity Club
+  description: A dedicated space for cybersecurity enthusiasts to learn and share.
+  twitter:
+    username: thaddeusmaxima
+    card: summary_large_image
 
+# Google Analytics (optional)
+# Replace with your own Google Analytics tracking ID
+google_analytics: UA-XXXXX-Y
+
+# Collections
 collections:
   ctfs_and_challenges:
     output: true
     permalink: /:collection/:path/
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Pagination (if using jekyll-paginate or similar)
+paginate: 5 # posts per page
+paginate_path: "/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+
+# Enable or disable comments (using Disqus or a similar service)
+comments:
+  provider: disqus
+  disqus:
+    shortname: your-disqus-shortname
+
+# Adding a favicon (recommended)
+favicon: "/assets/img/favicon.ico"
+
+# Customize 404 page
+defaults:
+  - scope:
+      path: "404.html"
+    values:
+      layout: "single"
+
